@@ -1,0 +1,41 @@
+
+
+
+.se-drawer-fill-remaining-space {
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+  }
+
+  .mat-button, .mat-fab, .mat-icon-button, .mat-mini-fab, .mat-raised-button {
+      min-width: 0px;
+  }
+
+  .menu-title{
+      padding-left: 10px;
+  }
+
+  .menuToggleBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 16px;
+    position: relative;
+    height: inherit;
+}
+
+.se-drawer{
+    min-width: 200px;
+}
+
+.se-drawer button{
+    flex: 1 1 auto;
+}
+
+.spacer {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    text-align: center;
+}
